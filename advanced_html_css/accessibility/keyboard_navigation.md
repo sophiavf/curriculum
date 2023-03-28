@@ -12,7 +12,7 @@ By the end of this lesson, you should be able to:
 
 ### Focus
 
-Remember our Rock, Paper, Scissors example that *didn't* use semantic HTML from the... well, Semantic HTML lesson? Another issue with using `<div>` and `<span>` elements is that, by default, they aren't focusable and they don't have any event handling by default. In order to fix our non-semantic Rock, Paper, Scissors example for keyboard users, we would need to take some extra steps, similar to the below code snippets:
+Remember our Rock, Paper, Scissors example that *didn't* use semantic HTML from the... well, [Semantic HTML lesson](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-semantic-html)? Another issue with using `<div>` and `<span>` elements is that, by default, they aren't focusable and they don't have any event handling by default. In order to fix our non-semantic Rock, Paper, Scissors example for keyboard users, we would need to take some extra steps, similar to the below code snippets:
 
 ~~~html
 <!-- The `tabindex` attribute makes the `<div>` elements focusable. -->
